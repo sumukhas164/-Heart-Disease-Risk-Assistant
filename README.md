@@ -47,14 +47,14 @@ It leverages machine learning and LLMs (via Groq) to extract features, assess ri
 
 ##  Features
 
-- 1. Accepts natural language input (no forms!)
+- Accepts natural language input (no forms!)
 - Uses Groq + LangChain LLM structured feature extraction
-- 3. Predicts heart disease risk using trained ML model
-- 4.Provides formal LLM-based risk explanation
-- 5. Returns lifestyle health advice
-- 6. Fetches reference links from trusted medical sites
-- 7. Generates downloadable reports in DOCX or Excel
-- 8. Clean, modern Gradio-based UI
+-  Predicts heart disease risk using trained ML model
+- Provides formal LLM-based risk explanation
+- Returns lifestyle health advice
+-  Fetches reference links from trusted medical sites
+- Generates downloadable reports in DOCX or Excel
+-  Clean, modern Gradio-based UI
 
 ---
 

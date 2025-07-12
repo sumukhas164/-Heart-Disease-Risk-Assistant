@@ -6,14 +6,14 @@ It leverages machine learning and LLMs (via Groq) to extract features, assess ri
 
 ---
 
-## 🧪 Demo
+##  Demo
 
 ![GIF](https://github.com/user-attachments/assets/4e1f365f-f29f-4a10-ba65-8d91cab072b2)
 
 
 ---
 
-## 🧱 Block Diagram
+## Block Diagram
 
  ![User input patient details](https://github.com/user-attachments/assets/e18fdd2c-d3ce-4adc-9b68-728eb9b32d7b)
 
@@ -45,7 +45,7 @@ It leverages machine learning and LLMs (via Groq) to extract features, assess ri
 
 ---
 
-## 🔍 Features
+##  Features
 
 - ✅ Accepts natural language input (no forms!)
 - ✅ Uses Groq + LangChain LLM for structured feature extraction
@@ -58,7 +58,7 @@ It leverages machine learning and LLMs (via Groq) to extract features, assess ri
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - Python 3.10+
 - [Gradio](https://www.gradio.app/) — Web UI  
@@ -70,9 +70,9 @@ It leverages machine learning and LLMs (via Groq) to extract features, assess ri
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1. 📦 Install Requirements
+### 1.  Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -97,7 +97,7 @@ langchain-groq
 
 ---
 
-### 2. 📁 Add Dataset
+### 2.  Add Dataset
 
 - Download the heart disease dataset from [Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 - Save it as:  
@@ -108,7 +108,7 @@ langchain-groq
 
 ---
 
-### 3. 🔐 Set Groq API Key
+### 3.  Set Groq API Key
 
 Replace the placeholder in your code with your Groq API key:
 
@@ -116,11 +116,11 @@ Replace the placeholder in your code with your Groq API key:
 groq_api = "YOUR_GROQ_API_KEY"
 ```
 
-> 🔗 Get your free API key here: [https://console.groq.com](https://console.groq.com)
+>  Get your free API key here: [https://console.groq.com](https://console.groq.com)
 
 ---
 
-### 4. ▶️ Run the App
+### 4.  Run the App
 
 To launch the app locally:
 
@@ -136,7 +136,7 @@ demo.launch()
 
 ---
 
-## 🧾 Example Input
+##  Example Input
 
 Paste this into the Gradio app input box:
 
@@ -146,17 +146,17 @@ A 60-year-old male with chest pain type 3, BP 150, cholesterol 270, fasting suga
 
 ---
 
-## 📤 Output Includes
+##  Output Includes
 
-- 🧪 Risk prediction score (e.g., **78.45%**)
-- 🩺 Formal medical explanation from LLM
-- ❤️ Heart-healthy lifestyle recommendations
-- 🔗 Reference links (Wikipedia, Mayo Clinic, etc.)
-- 📄 Downloadable report (in DOCX or Excel format)
+-  Risk prediction score (e.g., **78.45%**)
+-  Formal medical explanation from LLM
+-  Heart-healthy lifestyle recommendations
+-  Reference links (Wikipedia, Mayo Clinic, etc.)
+-  Downloadable report (in DOCX or Excel format)
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 INPUT IMAGE
 
